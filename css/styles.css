@@ -1,0 +1,46 @@
+body{
+    font-family: 'Fugaz One', cursive;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: #004C29;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    background-color: #004C29;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 12px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 11px;
+}
+nav a:hover{
+    color: gray;
+}
+
+@media (max-width: 680px){
+    .menu{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
