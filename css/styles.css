@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: 'muscular_strengthregular';
+    src: url('muscular_strength_bold-webfont.woff2') format('woff2'),
+         url('muscular_strength_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     font-family: 'Fugaz One', cursive;
     margin: 0;
@@ -29,13 +39,14 @@ header{
     margin-right: 12px;
 }
 nav a{
-    font-weight: 600;
-    padding-right: 11px;
+    font-family: 'Antonio', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 nav a:hover{
-    color: gray;
+    display: inline-block;
+    transform: scale(1.25);
 }
-
 @media (max-width: 680px){
     .menu{
         flex-direction: column;
